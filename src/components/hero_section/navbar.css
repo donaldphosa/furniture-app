@@ -1,0 +1,35 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    padding: 0 143px;
+    background-color: #C4C4C4;
+} 
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    gap:58px;
+}
+.nav_links>p{
+   font-size: 20;
+   font-weight: 400; 
+   color: #07484A;
+}
+.nav_links>p:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo{
+    color: #07484A;
+    cursor: pointer; 
+}
+.nav_right_links{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
