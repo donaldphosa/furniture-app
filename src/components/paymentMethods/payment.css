@@ -1,0 +1,52 @@
+.paymentMethodContainer{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    background-color: #E0EFF6;
+    padding-top: 60px;
+}
+.cardPayment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 70px;
+    box-sizing: border-box;
+
+}
+.paymentCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.paymentDescription{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #07484A;
+    align-self: center;
+    text-align: center;
+    width: 80%;
+}
+.paymentsIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.paymentName{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #07484A;
+    margin-bottom: 15px;
+}
+.paymentHeading{
+    color: #07484A;
+    font-size: 3rem;
+    font-weight: bold;
+}
